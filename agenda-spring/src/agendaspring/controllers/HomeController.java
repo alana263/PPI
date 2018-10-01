@@ -1,6 +1,6 @@
 package agendaspring.controllers;
 
-//@Controller
+@Controller
 public class HomeController {
 
 }
