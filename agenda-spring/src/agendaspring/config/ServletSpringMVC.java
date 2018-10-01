@@ -16,7 +16,7 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 
 	@Override
 	protected String[] getServletMappings() {
-		return null;
+		return new  String[] {"/"};
 	}
 
 
