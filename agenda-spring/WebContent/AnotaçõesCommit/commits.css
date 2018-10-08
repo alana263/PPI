@@ -1,8 +1,0 @@
-commit 1 --> CRIAÇÃO DO PROJETO
-commit 2 --> criou a classe la (home) de controler e transformou o projeto pra maven 
-commit 3 --> dependencias e baixou os coiso la do spring
-commit 4 --> criação do metodo home e seu mapeamento via URL 
-commit 5 --> configuração do servlet que extends do nome grande 
-commit 6 --> modificou o return  do metodo abstrato de mapeamento do servlet 
-commit 7 --> criando classe appWEBConfiguration e habilitando o spring mvc e define o componente scan da aplicação
-commit 8 --> criou a pasta views dentro de WEB-INF e  o jsp e configurou o spring para entender onde as pags da aplicação estão . InternalResourceViewResolver
