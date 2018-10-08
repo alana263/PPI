@@ -7,10 +7,13 @@
 <title>Formulario</title>
 </head>
 <body>
-	<h1>Página de formulário. Bem vindos(as)!</h1>
+	<h1>Página de formulário. Bem vindos(as)</h1>
+	<h2>Preencha o formulário</h2>
 	
-	<form action="agendaspring/contatos">
+	<form action="/agendaspring/contatos">
 		Nome: <input type="text" name="nome">
+		email: <input type="text" name="email">
+		Endereço: <input type="text" name="endereco">
 		<button type="submit">Adicionar</button>
 		
 	</form>

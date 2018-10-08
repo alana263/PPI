@@ -3,6 +3,8 @@ package agendaspring.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import models.Contato;
+
 @Controller
 public class ContatoController {
 
@@ -13,7 +15,7 @@ public class ContatoController {
 	}
 	
 	@RequestMapping("/contatos")
-	public String adicionar(String nome) {
+	public String adicionar(Contato contato) {
 		return "contatos/ok";
 	}
 }
