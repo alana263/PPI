@@ -59,12 +59,10 @@ public class ContatoDAO {
 				contato.setEmail(rs.getString("email"));
 				contato.setEndereco(rs.getString("endereco"));
 
-				// montando a data atrav�s do Calendar
 				Calendar data = Calendar.getInstance();
 				data.setTime(rs.getDate("dataNascimento"));
 				contato.setDataNascimento(data);
 
-				// adicionando o objeto � lista
 				result.add(contato);
 			}
 			rs.close();

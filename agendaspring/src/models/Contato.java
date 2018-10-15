@@ -2,11 +2,14 @@ package models;
 
 import java.util.Calendar;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 public class Contato {
 	private Long id;
 	private String nome;
 	private String email;
 	private String endereco;
+	@DateTimeFormat(pattern="dd/MM/yyyy")
 	private Calendar dataNascimento;
 
 	public String getNome() {
@@ -48,4 +51,12 @@ public class Contato {
 	public void setDataNascimento(Calendar dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
+
+	@Override
+	public String toString() {
+		return "Contato [id=" + id + ", nome=" + nome + ", email=" + email + ", endereco=" + endereco
+				+ ", dataNascimento=" + dataNascimento + "]";
+	}
+	
+	
 }
